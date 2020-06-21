@@ -2,7 +2,14 @@ import React from 'react'
 
 import { Grid } from './styles'
 
-import { ServerList, ServerName, ChannelInfo, ChannelList, UserInfo } from '..'
+import {
+  ServerList,
+  ServerName,
+  ChannelInfo,
+  ChannelList,
+  UserInfo,
+  UserList
+} from '..'
 
 const Layout: React.FC = () => (
   <Grid>
@@ -11,6 +18,7 @@ const Layout: React.FC = () => (
     <ChannelInfo />
     <ChannelList />
     <UserInfo />
+    <UserList />
   </Grid>
 )
 
