@@ -7,6 +7,7 @@ import {
   ServerName,
   ChannelInfo,
   ChannelList,
+  ChannelData,
   UserInfo,
   UserList
 } from '..'
@@ -18,6 +19,7 @@ const Layout: React.FC = () => (
     <ChannelInfo />
     <ChannelList />
     <UserInfo />
+    <ChannelData />
     <UserList />
   </Grid>
 )
